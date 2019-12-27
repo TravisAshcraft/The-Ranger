@@ -108,6 +108,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  enemyLaser: {fileID: 100000, guid: bfe0ba4acc768a5448d46a6c63d8106a, type: 3}
+  laserSpeed: 5
 --- !u!60 &-7767585293133801041
 PolygonCollider2D:
   m_ObjectHideFlags: 0
