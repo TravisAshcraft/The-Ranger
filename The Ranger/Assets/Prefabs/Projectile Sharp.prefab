@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7040107307180264950}
   - component: {fileID: 3520557340734542724}
   - component: {fileID: -8641545835915675159}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Projectile Sharp
   m_TagString: Projectile
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.03
+        value: 0.54829526
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -141,7 +141,7 @@ TrailRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0
+        value: 0.5182953
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -153,7 +153,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.7411765, g: 0, b: 0, a: 1}
+      key0: {r: 0.9716981, g: 0.952266, b: 0.5454343, a: 1}
       key1: {r: 0.5058824, g: 0, b: 0, a: 0.27058825}
       key2: {r: 0.2, g: 0, b: 0, a: 0.043137256}
       key3: {r: 1, g: 1, b: 1, a: 0}
