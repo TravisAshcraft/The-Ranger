@@ -97,12 +97,12 @@ MonoBehaviour:
   moveSpeed: 10
   padding: 0.35
   health: 100
-  explosionTime: 1
   explosion: {fileID: 786100929367457367, guid: 23c42b3b30b0ea441a3590b0a7610327,
     type: 3}
   playerLaser: {fileID: 6033085500366931112, guid: 55d54257738cefa4f94eda5bbd793d39,
     type: 3}
   laserSpeed: 20
+  laserSFX: {fileID: 8300000, guid: ab624af762a0dcf4086d1c9c7d303fc3, type: 3}
 --- !u!60 &3545020089824823858
 PolygonCollider2D:
   m_ObjectHideFlags: 0

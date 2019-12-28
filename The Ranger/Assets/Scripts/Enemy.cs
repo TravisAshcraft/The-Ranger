@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] float laserSpeed = 5f;
     [SerializeField] GameObject explosion;
     [SerializeField] float explosionTime = 3f;
+    [SerializeField] AudioClip laserSFX;
+    [SerializeField] float laserVolume = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +43,7 @@ public class Enemy : MonoBehaviour
            transform.position, 
            Quaternion.identity) as GameObject;
         laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -laserSpeed);
+        AudioSource.PlayClipAtPoint(laserSFX, Camera.main.transform.position);
     }
 
     //using other refering to the other gameobject collding with enemy.
@@ -66,5 +69,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
         GameObject boom = Instantiate(explosion, transform.position, transform.rotation);
         Destroy(boom, explosionTime);
+        
     }
 }

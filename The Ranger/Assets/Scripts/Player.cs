@@ -12,10 +12,12 @@ public class Player : MonoBehaviour
     float explosionTime = 1f;
     [SerializeField] GameObject explosion;
 
+
     [Header("Fire")]
     [SerializeField] GameObject playerLaser;
     [SerializeField] float laserSpeed;
-
+    
+    
     Coroutine firingCoroutine;
 
     private float xMin;
@@ -95,6 +97,7 @@ public class Player : MonoBehaviour
                 Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, laserSpeed);
             yield return new WaitForSeconds(projectileFiringPeriod);
+            
         }
            
     }
