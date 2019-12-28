@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding;
     [SerializeField] int health = 100;
+    float explosionTime = 1f;
+    [SerializeField] GameObject explosion;
 
     [Header("Fire")]
     [SerializeField] GameObject playerLaser;
@@ -61,8 +63,15 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+        GameObject boom = Instantiate(explosion, transform.position, transform.rotation);
+        Destroy(boom, explosionTime);
     }
 
     private void Fire()

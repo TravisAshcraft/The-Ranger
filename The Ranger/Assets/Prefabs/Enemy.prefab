@@ -113,6 +113,8 @@ MonoBehaviour:
   maxTimeBetweenShots: 3
   enemyLaser: {fileID: 100000, guid: bfe0ba4acc768a5448d46a6c63d8106a, type: 3}
   laserSpeed: 5
+  explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
+  explosionTime: 3
 --- !u!60 &-7767585293133801041
 PolygonCollider2D:
   m_ObjectHideFlags: 0
