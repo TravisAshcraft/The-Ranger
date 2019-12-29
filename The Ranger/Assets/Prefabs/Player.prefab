@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4291387848197674300}
   - component: {fileID: 4108488563950974829}
   - component: {fileID: 3545020089824823858}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,10 +99,11 @@ MonoBehaviour:
   health: 100
   explosion: {fileID: 786100929367457367, guid: 23c42b3b30b0ea441a3590b0a7610327,
     type: 3}
+  explosionSFX: {fileID: 8300000, guid: 5925f76285852b044bffa786f8c917ad, type: 3}
   playerLaser: {fileID: 6033085500366931112, guid: 55d54257738cefa4f94eda5bbd793d39,
     type: 3}
   laserSpeed: 20
-  laserSFX: {fileID: 8300000, guid: ab624af762a0dcf4086d1c9c7d303fc3, type: 3}
+  delayGameOver: 10
 --- !u!60 &3545020089824823858
 PolygonCollider2D:
   m_ObjectHideFlags: 0

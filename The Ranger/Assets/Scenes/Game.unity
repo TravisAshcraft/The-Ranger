@@ -272,6 +272,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 352a14d95763a984793e5c4e80fc6eb3, type: 3}
+--- !u!1001 &1011289880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1159904183366595438, guid: 687f45a3a8e1af6408ce0db09fa90d0a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159904183366595438, guid: 687f45a3a8e1af6408ce0db09fa90d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159904183366595438, guid: 687f45a3a8e1af6408ce0db09fa90d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159904183366595438, guid: 687f45a3a8e1af6408ce0db09fa90d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569505725698131721, guid: 687f45a3a8e1af6408ce0db09fa90d0a,
+        type: 3}
+      propertyPath: m_Name
+      value: Level
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 687f45a3a8e1af6408ce0db09fa90d0a, type: 3}
 --- !u!1001 &1356686602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -568,26 +602,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
         type: 3}
-      propertyPath: waveConfigs.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 72f7cd5bf73fc48429b511c016736de7,
-        type: 2}
-    - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
-        type: 3}
-      propertyPath: waveConfigs.Array.data[3]
-      value: 
-      objectReference: {fileID: 11400000, guid: 6ad944ee5aff30a4d9a30d7e77c15877,
-        type: 2}
-    - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
-        type: 3}
       propertyPath: waveConfigs.Array.data[4]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
         type: 3}
-      propertyPath: looping
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: waveConfigs.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 540c12ba37218f947a85a149d92b3361,
+        type: 2}
+    - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a5a27329c7376e48befe6805e7cb6e4,
+        type: 2}
+    - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e923616088140049b4801ac10e66121,
+        type: 2}
+    - target: {fileID: 3639318789339306146, guid: 001b11256631d794a980a9da4c5afec7,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 003f33f1cd1509c4f8cafa181c8b388c,
+        type: 2}
     - target: {fileID: 3639318789339306147, guid: 001b11256631d794a980a9da4c5afec7,
         type: 3}
       propertyPath: m_Name

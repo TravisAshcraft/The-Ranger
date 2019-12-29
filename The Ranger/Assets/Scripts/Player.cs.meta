@@ -3,7 +3,12 @@ guid: 65cdc3882140aaf458ddbdb43c1a3422
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - explosion: {fileID: 786100929367457367, guid: 23c42b3b30b0ea441a3590b0a7610327,
+      type: 3}
+  - explosionSFX: {fileID: 8300000, guid: af714165280946b4a9e7e07f00b8d28c, type: 3}
+  - playerLaser: {fileID: 6033085500366931112, guid: 55d54257738cefa4f94eda5bbd793d39,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

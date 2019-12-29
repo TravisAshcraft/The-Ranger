@@ -14,7 +14,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject explosion;
     [SerializeField] float explosionTime = 3f;
     [SerializeField] AudioClip laserSFX;
-    [SerializeField] float laserVolume = 10f;
+    
+    [SerializeField] AudioClip explosionSFX;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +71,8 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
         GameObject boom = Instantiate(explosion, transform.position, transform.rotation);
         Destroy(boom, explosionTime);
+        AudioSource.PlayClipAtPoint(explosionSFX,
+            Camera.main.transform.position);
         
     }
 }

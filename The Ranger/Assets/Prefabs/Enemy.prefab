@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1334950096578463155}
   - component: {fileID: 1509317865743463971}
   - component: {fileID: -7767585293133801041}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
   explosionTime: 3
   laserSFX: {fileID: 8300000, guid: 4867a722e31c7444d96aacc7aa007239, type: 3}
-  laserVolume: 10
+  explosionSFX: {fileID: 8300000, guid: 7b70f451b1d4e344aaebcc6aac078ba0, type: 3}
 --- !u!60 &-7767585293133801041
 PolygonCollider2D:
   m_ObjectHideFlags: 0

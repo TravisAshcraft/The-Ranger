@@ -6,6 +6,8 @@ MonoImporter:
   defaultReferences:
   - enemyLaser: {fileID: 100000, guid: bfe0ba4acc768a5448d46a6c63d8106a, type: 3}
   - explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
+  - laserSFX: {fileID: 8300000, guid: ab624af762a0dcf4086d1c9c7d303fc3, type: 3}
+  - explosionSFX: {fileID: 8300000, guid: 9cbc14709d4a7db4ebc3919e342af2d6, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

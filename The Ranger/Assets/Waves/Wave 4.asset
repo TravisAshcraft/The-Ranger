@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Wave 0
+  m_Script: {fileID: 11500000, guid: 5306381f7d5dbe347bda9cd78d0417bb, type: 3}
+  m_Name: Wave 4
   m_EditorClassIdentifier: Assembly-CSharp::WaveConfig
   enemyPrefab: {fileID: 396118535003282119, guid: 8f93f2a947ec8ef48bba601b196b27cb,
     type: 3}
@@ -18,5 +18,5 @@ MonoBehaviour:
     type: 3}
   timeBetweenSpawns: 0.5
   spawnRandomFactor: 0.3
-  numberOfEnemies: 5
+  numberOfEnemies: 3
   moveSpeed: 4

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,13 +12,12 @@ public class Player : MonoBehaviour
     [SerializeField] int health = 100;
     float explosionTime = 1f;
     [SerializeField] GameObject explosion;
-
+    [SerializeField] AudioClip explosionSFX;
 
     [Header("Fire")]
     [SerializeField] GameObject playerLaser;
     [SerializeField] float laserSpeed;
-    
-    
+    [SerializeField] float delayGameOver = 3f;
     Coroutine firingCoroutine;
 
     private float xMin;
@@ -65,16 +65,25 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
+            
             Die();
+            
         }
     }
 
     private void Die()
     {
+        FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         GameObject boom = Instantiate(explosion, transform.position, transform.rotation);
         Destroy(boom, explosionTime);
+        AudioSource.PlayClipAtPoint(explosionSFX, Camera.main.transform.position);
+
+
     }
+
+    
+   
 
     private void Fire()
     {
