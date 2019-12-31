@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding;
-    [SerializeField] int health = 100;
+    int health = 500;
     float explosionTime = 1f;
     [SerializeField] GameObject explosion;
     [SerializeField] AudioClip explosionSFX;
@@ -83,7 +83,10 @@ public class Player : MonoBehaviour
 
     }
 
-    
+    public int GetHealth()
+    {
+        return health;
+    }
    
 
     private void Fire()
